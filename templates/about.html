@@ -1,0 +1,112 @@
+{% extends "index.html" %}
+
+{% block header %}
+<title>Chunyou Peng - 记录技术和生活</title>
+
+<!-- Open Graph meta tags (Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="About Chunyou Peng" />
+<meta property="og:description" content="一个默默无名的人" />
+<meta property="og:image" content="https://chunyoupeng.tech/about/chunyou-peng.jpg" />
+<meta property="og:image:alt" content="Chunyou Peng - Software Engineer" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://endler.dev/about/" />
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Chunyou Peng" />
+
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="About Chunyou Peng" />
+<meta name="twitter:description" content="籍籍无名之辈" />
+<meta name="twitter:image" content="https://chunyoupeng.tech/about/chunyou-peng.jpg" />
+<meta name="twitter:image:alt" content="Chunyou Peng - Software Engineer" />
+
+<meta name="description" content="籍籍无名之辈" />
+<meta name="author" content="Chunyou Peng" />
+
+<meta name="thumbnail" content="https://chunyoupeng.tech/about/chunyou-peng.jpg" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Chunyou Peng",
+  "alternateName": "mre",
+  "url": "https://endler.dev/about/",
+  "image": "https://chunyoupeng.tech/about/chunyou-peng.jpg",
+  "jobTitle": "Rust Consultant & Open Source Maintainer",
+  "description": "籍籍无名之辈",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Düsseldorf",
+    "addressCountry": "Germany"
+  },
+  "sameAs": [
+    "https://github.com/mre",
+    "https://twitter.com/matthiasendler",
+    "https://linkedin.com/in/matthiasendler"
+  ],
+  "knowsAbout": [
+    "Rust Programming",
+    "Backend Development",
+    "Open Source Software",
+    "Technical Consulting",
+    "Software Architecture"
+  ],
+  "owns": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "lychee",
+      "description": "Fast, async link checker written in Rust",
+      "url": "https://github.com/lycheeverse/lychee"
+    }
+  ],
+  "creator": [
+    {
+      "@type": "PodcastSeries",
+      "name": "Rust in Production",
+      "description": "Podcast about companies using Rust in production",
+      "url": "https://corrode.dev/podcast/"
+    }
+  ]
+}
+</script>
+
+<style>
+    .profile-photo-inline {
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+        float: left;
+        margin: 1rem 2rem 0 0;
+        left: 0;
+        transform: translateX(0);
+    }
+
+    /* Normal links in the stars table look quite busy */
+    table a {
+        text-decoration: none;
+    }
+</style>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/about/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/about/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/about/favicon-16x16.png">
+<link rel="manifest" href="/about/site.webmanifest">
+<link rel="shortcut icon" href="/about/favicon.ico">
+{% endblock header %}
+
+{% block content %}
+
+<article>
+    <h1>{{ page.title }}</h1>
+    
+    <img src="https://chunyoupeng.tech/about/chunyou-peng.jpg" 
+         alt="Photograph of Chunyou Peng taken in 2024" 
+         class="profile-photo-inline"
+         width="150" 
+         height="150" />
+    
+    {{ page.content | safe }}
+</article>
+{% endblock content %}
