@@ -7,14 +7,14 @@ draft=false
 tags=["dev", "culture"]
 +++
 
-One of the most repeated pieces of advice throughout my career in software has been "don't repeat yourself," also known as the DRY principle.
+One of the most repeated pieces of advice throughout my career in software has been "don't repeat yourself," also known as the DRY principle.[^why]
 For the longest time, I took that at face value, never questioning its validity.
 
 That was until I saw actual experts write code: **they copy code all the time**[^experts].
 I realized that repeating yourself has a few great benefits.
 
 [^experts]: For some examples, see [Ferris working on Rustendo64](https://www.youtube.com/watch?v=ToOt-osLxNk) or [tokiospliff working on a C++ game engine](https://www.youtube.com/watch?v=j79G5Be8Q4Y).
-
+[^why]: 这就是为什么
 ## Why People Love DRY 
 
 The common wisdom is that if you repeat yourself, you have to fix the same bug in multiple places, but if you have a shared abstraction, you only have to fix it once.

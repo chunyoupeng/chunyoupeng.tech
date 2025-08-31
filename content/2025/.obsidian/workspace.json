@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "c638c1ed09c9e005",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d25a5fc809516a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b24093245bd648e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "倍增法/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d71824523cc47c81",
+    "type": "split",
+    "children": [
+      {
+        "id": "852a99c32c70262e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df7119c661d6d0d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "202615c8695ffb88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2d55865bf7818d5e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "693fd2301428901f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3375e92257635b37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e77faa2d2d980aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "倍增法/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "index 的反向链接列表"
+            }
+          },
+          {
+            "id": "469999fe29226362",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "best-programmers/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "index 的出链列表"
+            }
+          },
+          {
+            "id": "eace7d8d5022c6a8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e269a5572a89d82e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "best-programmers/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "2b24093245bd648e",
+  "lastOpenFiles": [
+    "用Emacs的快捷键绑定VS Code/index.md",
+    "倍增法/index.md",
+    "倍增法",
+    "未命名.base",
+    "repeat-yourself/index.md",
+    "how-to-review-code/index.md",
+    "watching-millionaires/index.md",
+    "reinvent-the-wheel/index.md",
+    "paolo/index.md",
+    "best-programmers/index.md",
+    "_index.md",
+    "用Emacs的快捷键绑定VS Code"
+  ]
+}
