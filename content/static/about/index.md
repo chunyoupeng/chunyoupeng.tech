@@ -9,7 +9,7 @@ template = "about.html"
 | 🗺️ **Living in**   | Düsseldorf, Germany                                                                                                                                         |
 | 🏭 **Company**     | [corrode](https://corrode.dev) (Rust Consulting)                                                                                                            |
 | 🎙️ **Podcast**     | Host of [Rust in Production](https://corrode.dev/podcast)                                                                                                   |
-| ❤️ **Open Source** | [lychee](https://lychee.cli.rs), [Analysis Tools](https://analysis-tools.dev), [Idiomatic Rust](https://github.com/mre/idiomatic-rust), [...](#open-source) |
+| ❤️ **Open Source** | [lychee](https://lychee.cli.rs), [Analysis Tools](https://analysis-tools.dev), [...](#open-source) |
 | 🎯 **Focus areas** | Rust, backend systems, performance optimizations                                                                                                            |
 | 🎓 **Education**   | M. Sc. Computer Science, [Universität Bayreuth](https://www.uni-bayreuth.de/)                                                                               |
 | 🤝 **Contact**     | [Linkedin], [Twitter], [Mastodon], [GitHub], [Email]                                                                                                        |
@@ -37,7 +37,7 @@ when I reinstalled the operating system, I forgot to save it to a floppy disk.
 Those were the days.
 
 This is also around the time I started to have my own blog.
-I've been maintaining some form of personal website for more than 25 years now. Some of the [different versions](https://github.com/mre/endler.dev) are still available on GitHub and the Internet Archive.
+I've been maintaining some form of personal website for years. The source of this site lives at [github.com/chunyoupeng/chunyoupeng.tech](https://github.com/chunyoupeng/chunyoupeng.tech).
 
 My first Linux distribution was Aurox, as it came with one of these magazines.
 After that, I was a proud Slackware user for a few years and managed to break my kernel and boot loader on a regular basis,
@@ -55,7 +55,7 @@ I learned many programming languages throughout the years, but ever since I lear
 In 2021, I founded [corrode](https://corrode.dev), a consulting company that helps teams
 make the most of Rust.
 
-I usually go by my handle `mre` on the internet, which is short for "Matthias Richard Endler".
+I usually go by my handle `chunyoupeng` on the internet.
 You can find me on [Mastodon], [Twitter], [LinkedIn], and [GitHub].
 Here is a list of my public speaking engagements.
 
@@ -68,9 +68,7 @@ If you wish to get in touch, feel free to [schedule a meeting][calendar] or [sen
 - [lychee](https://lychee.cli.rs): A fast link checker written in Rust.
 - [Analysis Tools](https://analysis-tools.dev): An open comparison
   platform for static/dynamic code analysis software, listing 600+ tools.
-- [Idiomatic Rust](https://github.com/mre/idiomatic-rust): A
-  peer-reviewed collection of articles/talks/repos that teach concise, idiomatic
-  Rust.
+
 
 ## Previous Projects / Companies
 
@@ -87,9 +85,9 @@ As of today, I have started more than 100 open source projects. Here's a list of
 
 [universit&auml;t bayreuth]: https://www.uni-bayreuth.de
 [trivago]: https://tech.trivago.com/
-[github]: https://github.com/mre/
-[twitter]: https://twitter.com/matthiasendler
-[linkedin]: https://www.linkedin.com/in/matthiasendler/
-[mastodon]: https://mastodon.social/@mre
+[github]: https://github.com/chunyoupeng/
+[twitter]: https://twitter.com/chunyoupeng
+[linkedin]: https://www.linkedin.com/in/chunyoupeng/
+[mastodon]: https://mastodon.social/@chunyoupeng
 [calendar]: https://cal.com/chunyoupeng
-[email]: mailto:matthias@endler.dev
+[email]: mailto:chunyoupeng@gmail.com

@@ -79,6 +79,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: 1c71f27d6fa097a1576b4ffab9186fa8
-          projectName: endler-dev
+          projectName: chunyoupeng-tech
           directory: ./public
       
