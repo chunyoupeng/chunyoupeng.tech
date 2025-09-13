@@ -2,7 +2,7 @@
 name = "img"
 edition = "2024"
 version = "0.2.0"
-authors = ["Chunyou Peng <matthias-endler@gmx.net>"]
+authors = ["Chunyou Peng <chunyoupeng@gmail.com>"]
 
 [dependencies]
 glob = "0.3.2"
