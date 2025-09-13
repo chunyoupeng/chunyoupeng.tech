@@ -1,0 +1,48 @@
+name: Build & Deploy Zola to Aliyun ECS
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 安装 Zola（用通用安装器装最新版本）
+      - name: Install Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola
+
+      - name: Build Zola
+        run: zola build --force
+
+      # 配置 SSH 代理加载私钥
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.ECS_SSH_KEY }}
+
+      - name: Add ECS host to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "${{ secrets.ECS_PORT }}" "${{ secrets.ECS_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Install rsync
+        run: sudo apt-get update && sudo apt-get install -y rsync
+
+      # 同步 public/ 到服务器站点目录（--delete 保持两端一致）
+      - name: Rsync to ECS
+        run: |
+          rsync -avz --delete -e "ssh -p ${{ secrets.ECS_PORT }}" \
+            public/ ${{ secrets.ECS_USER }}@${{ secrets.ECS_HOST }}:/var/www/chunyoupeng.tech/
+
+      - name: Reload Nginx (optional)
+        run: |
+          ssh -p ${{ secrets.ECS_PORT }} ${{ secrets.ECS_USER }}@${{ secrets.ECS_HOST }} \
+            "sudo nginx -t && sudo systemctl reload nginx"
