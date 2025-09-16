@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "什么是BIT？/index.md",
+                "file": "数据结构：Trie/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,8 +171,12 @@
   },
   "active": "2b24093245bd648e",
   "lastOpenFiles": [
-    "差分数组/index.md",
+    "数据结构：Trie/trie.png",
+    "_index.md",
+    "数据结构：Trie/index.md",
     "什么是BIT？/index.md",
+    "数据结构：Trie",
+    "差分数组/index.md",
     "什么是BIT？",
     "倍增法例题：Company Queries II/index.md",
     "Templates/Note Template.md.md",
@@ -184,7 +188,6 @@
     "用迭代的方式实现dfs",
     "谈谈我对vibe coding的看法/index.md",
     "谈谈我对vibe coding的看法",
-    "_index.md",
     "倍增法例题：Company Queries II",
     "未命名.md",
     "用Emacs的快捷键绑定VS Code/index.md",
