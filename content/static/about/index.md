@@ -4,87 +4,31 @@ path = "about"
 template = "about.html"
 +++
 
-|                 |                                                                                                                                                             |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🗺️ **Living in**   | Düsseldorf, Germany                                                                                                                                         |
-| 🏭 **Company**     | [corrode](https://corrode.dev) (Rust Consulting)                                                                                                            |
-| 🎙️ **Podcast**     | Host of [Rust in Production](https://corrode.dev/podcast)                                                                                                   |
-| ❤️ **Open Source** | [lychee](https://lychee.cli.rs), [Analysis Tools](https://analysis-tools.dev), [...](#open-source) |
-| 🎯 **Focus areas** | Rust, backend systems, performance optimizations                                                                                                            |
-| 🎓 **Education**   | M. Sc. Computer Science, [Universität Bayreuth](https://www.uni-bayreuth.de/)                                                                               |
-| 🤝 **Contact**     | [Linkedin], [Twitter], [Mastodon], [GitHub], [Email]                                                                                                        |
+|                 |                                                                           |
+| --------------- | ------------------------------------------------------------------------- |
+| 🗺️ **现居**        | 中国                                                                        |
+| 🧠 **研究方向**     | 大语言模型、软件工程                                                         |
+| 🛠️ **关注领域**     | LLM 评测与对齐、代码智能、智能体工程化                                         |
+| 🤝 **联系**        | [GitHub], [LinkedIn], [Email]                                           |
 
-## The Full Story 
+## 关于我
 
-My first computer was a Vobis Highscreen Big Tower with a 16 MHz 386SX.
-I managed to get Windows 95 running on it, which took 50 out of the available 60 MB of
-disk space. Booting Win95 took around 30 minutes on that machine; it was glorious.
-Eventually I fried it when I flipped the voltage switch from 230V to 115V while it was running.
+我是彭春友，长期关注大语言模型与软件工程的结合：如何让模型更好地理解代码、如何把研究成果落地到工程化工具链，以及如何评估模型在真实开发场景中的效果。这个站点记录我的思考、实验和实践脚印。
 
-I fried a few more computers, but I also helped fix some. I learned how to
-configure routers and set up networks before I had internet access, because
-we used to have print magazines with articles about how to do that,
-and people paid money to get them online.
+我喜欢把研究和工程连接起来：写笔记、做小工具、跑实验，把实践结果公开出来，帮助更多开发者降低使用大模型的门槛。未来会持续在模型评测、代码智能、AI Agent 等方向做尝试。
 
-As a kid living up on a mountain with no internet, the only programming language
-I had access to was QBASIC because it came pre-installed with the OS, including the documentation.
-I learned to program by brute force, typing in commands and seeing what
-happened.
-The first game I wrote was an Asteroids clone, but I didn't know what arrays were,
-so all asteroids had hardcoded names in the program.
-Later, I wrote a table tennis game for two players with nice graphics and double-buffering, but
-when I reinstalled the operating system, I forgot to save it to a floppy disk.
-Those were the days.
+## 正在做的事
 
-This is also around the time I started to have my own blog.
-I've been maintaining some form of personal website for years. The source of this site lives at [github.com/chunyoupeng/chunyoupeng.tech](https://github.com/chunyoupeng/chunyoupeng.tech).
-
-My first Linux distribution was Aurox, as it came with one of these magazines.
-After that, I was a proud Slackware user for a few years and managed to break my kernel and boot loader on a regular basis,
-as was customary in those days.
-The first version of my penguin logo dates back to that time, too.
-
-My [first company](https://web.archive.org/web/20111128060819/http://www.ebit-systems.de/) was a small software consultancy that I founded with my friend Johannes.
-We fixed hardware, created websites, and wrote simple applications for mid-sized companies in the region.
-
-Later on, I studied Computer Science at [Universit&auml;t Bayreuth] and started to contribute to open-source software.
-After graduating, I went on to work as a backend engineer at [trivago], where I
-mostly dealt with website performance and scaling our backend systems. 
-
-I learned many programming languages throughout the years, but ever since I learned of Rust in 2015, I've been using it as my main programming language.
-In 2021, I founded [corrode](https://corrode.dev), a consulting company that helps teams
-make the most of Rust.
-
-I usually go by my handle `chunyoupeng` on the internet.
-You can find me on [Mastodon], [Twitter], [LinkedIn], and [GitHub].
-Here is a list of my public speaking engagements.
-
-If you wish to get in touch, feel free to [schedule a meeting][calendar] or [send me an e-mail][email].
-
-## Active Projects / Companies
-
-- [Rust in Production](https://corrode.dev/podcast): A podcast about companies using Rust in production.
-- [Open Podcast](https://openpodcast.app): An open platform for podcast analytics.
-- [lychee](https://lychee.cli.rs): A fast link checker written in Rust.
-- [Analysis Tools](https://analysis-tools.dev): An open comparison
-  platform for static/dynamic code analysis software, listing 600+ tools.
-
-
-## Previous Projects / Companies
-
-- [codeprints](https://codeprints.dev): A shop for framed art prints of your
-  Github contributions (co-founder, since acquired).
-- [Hello, Rust!](https://corrode.dev/hello-rust/): A YouTube channel about the Rust programming language
-  (discontinued).
+- 构建和打磨个人的 LLM 工具链，探索模型评测与自动化工作流。
+- 记录软件工程与大模型结合的实践案例，输出文章与笔记。
+- 把有用的小工具开源出来，方便他人复用。
 
 ## Open Source
 
-As of today, I have started more than 100 open source projects. Here's a list of the more popular ones:
+下面是我在维护或尝试的一些仓库，欢迎交流或提 Issue：
 
 {{ load_stars() }}
 
-[universit&auml;t bayreuth]: https://www.uni-bayreuth.de
-[trivago]: https://tech.trivago.com/
 [github]: https://github.com/chunyoupeng/
 [twitter]: https://twitter.com/chunyoupeng
 [linkedin]: https://www.linkedin.com/in/chunyoupeng/
