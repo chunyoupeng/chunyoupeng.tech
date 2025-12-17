@@ -3,6 +3,18 @@
 {%- block header %}
 <title>{{ page.title }} | Chunyou Peng</title>
 <link rel="canonical" href="{{ page.permalink | safe }}" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"
+></script>
 {%- if page.extra.css %}
 <link href="./article.css" rel="stylesheet" />
 {%- endif %}
@@ -161,5 +173,19 @@
   {% endif %}
 
 </article>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof renderMathInElement !== "function") return;
+    const target = document.querySelector(".article-content") || document.body;
+    renderMathInElement(target, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ],
+      ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+    });
+  });
+</script>
 
 {% endblock content %}
