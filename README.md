@@ -10,6 +10,7 @@ This website is forked from [Matthias Endler's personal website](https://endler.
 
 This website is built with:
 - [Zola](https://www.getzola.org/) (Rust-based static site generator)
+- Zola version pinned to 0.21.0 for CI stability
 - AliCloud for hosting
 
 ## License
